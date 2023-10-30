@@ -1,4 +1,4 @@
-# EE538 Final Project - Spring 2023 - TrojanMap
+# EE538 Final Project - Fall 2023 - TrojanMap
 
 The project is **optional**: you can select one of the following options:
 
@@ -7,7 +7,7 @@ The project is **optional**: you can select one of the following options:
 
 If you choose to work on the project, you don't have to submit the remaining homework assignments. Similarly, if you choose to work on the homework assignment, you do not have to submit the project. 
 
-You should inform us of your choice by the first due date (Sunday, April 9).
+You should inform us of your choice by the first due date (Wednesday, November 15).
 
 #### Who should work on the project?
 If you plan to become a software engineer, we recommend working on the project as it will give you more experience coding a real-life project. Otherwise, you can take the homework assignments.
@@ -18,7 +18,7 @@ Not everything in the project is covered in the class. The idea is for you to do
 We expect both options to take a similar amount of time. The project, however, might require extra effort from you during the environment setup and installation prerequisites.
 
 #### How many students in each team?
-Each team should consist of one or two students. You can find a teammate who is in other sections of the course. You should select your teammates by the first due date (April 9).
+Each team should consist of one or two students. You can find a teammate who is in other sections of the course. You should select your teammates by the first due date (November 15).
 
 #### What should I submit?
 The project is submitted in different phases. You are required to submit the following:
@@ -31,17 +31,17 @@ The project is submitted in different phases. You are required to submit the fol
    - Tables, plots and comparisons
    - No coding details in the video
 
-   Here is a [sample video from the previous semester.](https://www.youtube.com/watch?v=_KDML4Ck3SU&t=4s) 
+   Here is a [sample video from a previous semester.](https://www.youtube.com/watch?v=_KDML4Ck3SU&t=4s) 
 
 3. A final report in the README file of your GitHub submission. The final report should include the questions that are asked in this README file, your tables and plots for the runtime results, and any other detail of your code.
 
 ## Due Dates
 
-- Phase 1: Sunday, April 9, 23:59 pm
-- Phase 2: Friday, April 14, 23:59 pm
-- Phase 3: Friday, April 28, 23:59 pm
-- Video Presentation: Friday, April 28, 23:59 pm
-- Report: Friday, May 5, 23:59 pm
+- Phase 1: Wednesday, November 15, 23:59
+- Phase 2: Tuesday, November 21, 23:59
+- Phase 3: Wednesday, December 6, 23:59
+- Video Presentation: Wednesday, December 6, 23:59
+- Report: Wednesday, December 6, 23:59
 
 ## TrojanMap
 
