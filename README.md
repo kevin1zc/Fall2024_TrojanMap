@@ -3,11 +3,11 @@
 The project is **optional**: you can select one of the following options:
 
 1. Work on the project and submit the reports.
-2. Submit homework assignments (HW4, 5, 6).
+2. Submit homework assignments (HW4, 5).
 
 If you choose to work on the project, you don't have to submit the remaining homework assignments. Similarly, if you choose to work on the homework assignment, you do not have to submit the project. 
 
-You should inform us of your choice by the first due date (Wednesday, November 15).
+You should inform us of your choice by the first due date (Friday, April 5).
 
 #### Who should work on the project?
 If you plan to become a software engineer, we recommend working on the project as it will give you more experience coding a real-life project. Otherwise, you can take the homework assignments.
@@ -18,7 +18,7 @@ Not everything in the project is covered in the class. The idea is for you to do
 We expect both options to take a similar amount of time. The project, however, might require extra effort from you during the environment setup and installation prerequisites.
 
 #### How many students in each team?
-Each team should consist of one or two students. You can find a teammate who is in other sections of the course. You should select your teammates by the first due date (November 15).
+Each team should consist of one or two students. You can find a teammate who is in other sections of the course. You should select your teammates by the first due date (April 5).
 
 #### What should I submit?
 The project is submitted in different phases. You are required to submit the following:
@@ -37,11 +37,11 @@ The project is submitted in different phases. You are required to submit the fol
 
 ## Due Dates
 
-- Phase 1: Wednesday, November 15, 23:59
-- Phase 2: Tuesday, November 21, 23:59
-- Phase 3: Wednesday, December 6, 23:59
-- Video Presentation: Wednesday, December 6, 23:59
-- Report: Wednesday, December 6, 23:59
+- Phase 1: Friday, April 5, 23:59
+- Phase 2: Friday, April 19, 23:59
+- Phase 3: Friday, May 3, 23:59
+- Video Presentation: Friday, May 3, 23:59
+- Report: Friday, May 3, 23:59
 
 ## TrojanMap
 
@@ -138,7 +138,7 @@ $ cd opencv/
 $ mkdir build install
 $ cd build
 $ cmake -D CMAKE_INSTALL_PREFIX=**path_to_install_folder** -D BUILD_LIST=core,highgui,imgcodecs,imgproc,videoio ..
-$ make install
+$ make -j$(nproc) install
 ```
 
 For example, if cloned this repo under `"/Users/ari/github/TrojanMap"`, you should type:
@@ -148,8 +148,10 @@ $ cd opencv/
 $ mkdir build install
 $ cd build
 $ cmake -D CMAKE_INSTALL_PREFIX=/Users/ari/github/TrojanMap/opencv/install -D BUILD_LIST=core,highgui,imgcodecs,imgproc,videoio ..
-$ make install
+$ make -j$(nproc) install
 ```
+
+The `-j$(nproc)` flag is to use all available CPU threads to speed up the build process. If you notice that your computer runs out of memory, you may remove this flag or set it to a smaller value (i.e. `make -j2 install`).
 
 ## Run the program
 
