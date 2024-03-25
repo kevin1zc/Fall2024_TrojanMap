@@ -128,7 +128,7 @@ $ sudo apt update
 $ sudo apt install cmake libgtk2.0-dev pkg-config
 $ sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
 $ sudo apt install libncurses5-dev libncursesw5-dev
-$ cp ubuntu/* ./
+$ cp -r ubuntu/* ./
 ```
 
 Step 2. Make sure you set the **path_to_install_folder** to be the absolute path to the **install** folder under opencv when running the following commands.
