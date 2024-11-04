@@ -18,7 +18,7 @@ Not everything in the project is covered in the class. The idea is for you to do
 We expect both options to take a similar amount of time. The project, however, might require extra effort from you during the environment setup and installation prerequisites.
 
 #### How many students in each team?
-Each team should consist of one or two students. You can find a teammate who is in other sections of the course. You should select your teammates by the first due date (April 9).
+Each team should consist of one or two students. You can find a teammate who is in other sections of the course. You should select your teammates by the first due date (November 10).
 
 #### What should I submit?
 The project is submitted in different phases. You are required to submit the following:
